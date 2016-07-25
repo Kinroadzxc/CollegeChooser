@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    background-color: #999999;
+    padding: 4px;
+}
+
+form div {
+    font-size: smaller;
+    display: inline-block;
+    background-color: #bbbbbb;
+    margin:4px;
+}
+
+form div div p{
+    display: inline-block;
+    background-color: #fff;
+}
+
+.division{
+    border-bottom: solid 2px #406661;
+    left: 40px;
+    right: 40px;
+    text-align: center;
+}

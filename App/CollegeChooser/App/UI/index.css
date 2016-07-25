@@ -1,0 +1,50 @@
+/*大屏幕*/
+@media screen and (min-width:720px) {
+    .outBox{
+        display: flex;
+        justify-content: center;
+        height:100%;
+    }
+    .outBox div{
+        background-color: #57d131;
+        width: 30%;
+        bottom: 8px;
+        margin: 1em ;
+    }
+    .outBox div:hover {
+        color: #f5f5f5;
+        background-color: #b9e937;
+        left: .1em;
+        cursor: pointer;
+    }
+}
+
+/*小屏幕*/
+@media screen and (max-width:719px) {
+    .outBox{
+        display:inline-block;
+        justify-content: center;
+        height:100%;
+        width: 100%;
+    }
+    .outBox div:hover {
+        color: #f5f5f5;
+        background-color: #b9e937;
+        left: .1em;
+        cursor: pointer;
+    }
+    .outBox div{
+        background-color: #57d131;
+        margin: 8px ;
+        height:31%;
+    }
+    .outBox div:nth-child(1){
+        right: 8px;
+    }
+    .outBox div:nth-child(1){
+        right: 8px;
+    }
+    .outBox div:nth-child(1){
+        right: 8px;
+    }
+}
